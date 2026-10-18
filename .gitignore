@@ -1,0 +1,15 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Ansible
+*.retry
+
+# Sensitive files
+.env
+*.pem
+*.key

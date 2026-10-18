@@ -1,0 +1,17 @@
+---
+- name: Configure E-Commerce DevOps Project
+  hosts: local
+  gather_facts: true
+
+  tasks:
+    - name: Display project name
+      ansible.builtin.debug:
+        msg: "AI-Powered E-Commerce DevOps Project"
+
+    - name: Ensure project info file exists
+      ansible.builtin.copy:
+        dest: "{{ playbook_dir }}/project-info.txt"
+        content: |
+          AI-Powered E-Commerce DevOps Project
+          Managed using Ansible.
+        mode: "0644"
