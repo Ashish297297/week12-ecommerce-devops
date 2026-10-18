@@ -20,6 +20,12 @@ pipeline {
             }
         }
 
+        stage('Deploy Application') {
+            steps {
+                sh 'docker compose up -d'
+            }
+        }
+
         stage('Complete') {
             steps {
                 echo 'CI pipeline completed successfully'
