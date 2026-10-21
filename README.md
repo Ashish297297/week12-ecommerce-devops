@@ -31,3 +31,13 @@ Kubernetes manifests are available in the kubernetes directory.
 Monitoring, centralized logging, security scanning, Helm,
 cloud deployment and AI-assisted incident analysis must be
 documented after their implementation is confirmed.
+
+## Week 12 Final Project Documentation
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [Implementation Summary](docs/IMPLEMENTATION.md)
+- [Deployment Guide](docs/DEPLOYMENT.md)
+- [Troubleshooting Guide](docs/TROUBLESHOOTING.md)
+- Security scan report: `trivy-report.json` (when present)
+
+This repository documents the AI-Powered E-Commerce DevOps project. Refer to the actual build, deployment, monitoring, logging and security evidence when assessing completion. Cloud deployment and automated AI remediation are not claimed without implementation evidence.
